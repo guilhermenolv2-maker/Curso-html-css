@@ -1,0 +1,24 @@
+ *{  /* configurações globais das css */
+            height: 100%;
+        }
+
+Tabela de posições de gradient no CSS
+linear-gradient()
+Direção	Código CSS	Resultado
+Topo → baixo	linear-gradient(to bottom, red, blue)	De cima para baixo
+Baixo → topo	linear-gradient(to top, red, blue)	De baixo para cima
+Esquerda → direita	linear-gradient(to right, red, blue)	Da esquerda para direita
+Direita → esquerda	linear-gradient(to left, red, blue)	Da direita para esquerda
+Diagonal superior direita	linear-gradient(to top right, red, blue)	Diagonal ↗
+Diagonal superior esquerda	linear-gradient(to top left, red, blue)	Diagonal ↖
+Diagonal inferior direita	linear-gradient(to bottom right, red, blue)	Diagonal ↘
+Diagonal inferior esquerda	linear-gradient(to bottom left, red, blue)	Diagonal ↙
+
+
+
+Gradientes usando ângulos
+Ângulo	Código	Direção
+0deg	linear-gradient(0deg, red, blue)	Baixo → cima
+90deg	linear-gradient(90deg, red, blue)	Esquerda → direita
+180deg	linear-gradient(180deg, red, blue)	Cima → baixo
+270deg	linear-gradient(270deg, red, blue)	Direita → esquerda
